@@ -1,0 +1,18 @@
+{
+  "client_id": "https://cdn.jsdelivr.net/gh/YanTing-man/dsh-undermind-client@main/client.json",
+  "client_name": "DeepSeek Harness",
+  "client_uri": "https://github.com/YanTing-man/dsh-undermind-client",
+  "redirect_uris": [
+    "http://127.0.0.1:3334/oauth/callback",
+    "http://localhost:3334/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "mcp"
+}
